@@ -129,11 +129,11 @@ Change this path when reproducing the project elsewhere.
 
 The repository contains:
 
--   `proto_unstruct_20.pt` --- 20-shot prototype for the unstructured
+-   `proto_unstruct_20.pt` - 20-shot prototype for the unstructured
     clinical-text condition
--   `proto_struct_20.pt` --- 20-shot fixed prototype using
+-   `proto_struct_20.pt` - 20-shot fixed prototype using
     patient-specific structured findings
--   `proto_learnable_20.pt` --- optimised 20-shot learnable prototype
+-   `proto_learnable_20.pt` - optimised 20-shot learnable prototype
 
 The prototypes correspond to the four OpenI classes used in the
 dissertation:
@@ -150,7 +150,7 @@ medical images or radiology reports.
 
 ## Reproducibility Notes
 
-The notebook uses a fixed random seed (`SEED = 42`) for data splitting
+The notebook uses a fixed random seed (`seed = 42`) for data splitting
 and support sampling. The main patient-specific multimodal configuration
 uses image/text fusion weights of 0.4/0.6.
 
